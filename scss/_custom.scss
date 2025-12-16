@@ -1,0 +1,28 @@
+
+
+.section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.rounded-circle.shadow {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.card {
+    &:hover {
+        transform: translateY(-5px);
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+.navbar {
+    .container {
+        a.nav-link {
+            transition: color 0.3s ease;
+            &:hover {
+                color: $mi-color-secundario; 
+            }
+        }
+    }
+}
